@@ -153,6 +153,7 @@ a[href^="tel:+1212-772-4150"] {
   left: 215px;
   top: 774px;
   display: flex;
+  gap: 30px;
 }
 
 .company-details-title {
@@ -186,7 +187,7 @@ a[href^="tel:+1212-772-4150"] {
   top: 969px;
 }
 
-.what-we-do {
+.what-we-do-title {
   position: absolute;
   width: 1170px;
   height: 386px;
@@ -202,6 +203,16 @@ a[href^="tel:+1212-772-4150"] {
   color: #212121;
 }
 
+.what-we-do-img {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+
 .our-team-section-size {
   position: absolute;
   width: 1600px;
@@ -215,7 +226,7 @@ a[href^="tel:+1212-772-4150"] {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -224,13 +235,12 @@ a[href^="tel:+1212-772-4150"] {
 
 .our-team-style {
   display: flex;
+  gap: 30px;
   position: absolute;
   width: 1170px;
   height: 368px;
   left: 215px;
   padding-top: auto;
-  justify-content: space-between;
-  margin: 0 -30px;
   background: white;
 }
 
@@ -284,6 +294,7 @@ a[href^="tel:+1212-772-4150"] {
 .portfolio-buttons-position {
   padding-left: 520px;
   padding-bottom: 56px;
+  display: flex;
 }
 
 .portfolio-button-style:hover {
